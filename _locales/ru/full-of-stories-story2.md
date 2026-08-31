@@ -40,7 +40,7 @@ effects.confetti.startScreenEffect()
 
 ---
 
-- :game: Из категории ``||controller: Controller||`` перетащите
+- :game: Из категории ``||controller:Контроллер||`` перетащите
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     music.play(music.createSong(hex`00780004080200`), music.PlaybackMode.InBackground)
@@ -95,12 +95,12 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 
 ---
 
-- :circle: Из ``||game:Game||``, возьмите
+- :circle: Из ``||game:Игра||``, возьмите
 ```block
     game.showLongText("To the greatest Earth I know", DialogLayout.Bottom)
 ```
 и закрепите его **внизу** <br/>.
-``||controller(noclick):on [A] button [pressed]||``<br/>
+``||controller(noclick):когда кнопка [A] [нажата]||``<br/>
 контейнер.
 
 
@@ -137,12 +137,12 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 
 ---
 
-- :circle: Из ``||game:Game||``, возьмите
+- :circle: Из ``||game:Игра||``, возьмите
 ```block
 game.setDialogFrame(img`.`)
 ```
 и закрепите его **вверху** <br/>.
-``||controller(noclick):on [A] button [pressed]||``<br/>
+``||controller(noclick):когда кнопка [A] [нажата]||``<br/>
 контейнер, который уже находится в вашей рабочей области.
 
 
@@ -191,12 +191,12 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 
 ---
 
-- :circle: Из ``||game:Game||``, возьмите
+- :circle: Из ``||game:Игра||``, возьмите
 ```block
 game.setDialogTextColor(1)
 ```
 и прикрепите его к **верхней части** <br/>.
-``||controller(noclick):on [A] button [pressed]||``<br/>
+``||controller(noclick):когда кнопка [A] [нажата]||``<br/>
 блок в вашем рабочем пространстве.
 
 

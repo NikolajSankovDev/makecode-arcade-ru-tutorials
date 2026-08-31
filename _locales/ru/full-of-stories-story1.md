@@ -16,13 +16,13 @@
 
 ---
 
-- :tree: Из категории ``||scene:Scene||`` на панели инструментов:
+- :tree: Из категории ``||scene:Сцена||`` на панели инструментов:
 схватить
 ```block
 scene.setBackgroundImage(img`.`)
 ```
 и перетащите его в пустой <br/>.
-``||loops(noclick):on start||``<br/>
+``||loops(noclick):при запуске||``<br/>
 контейнер в рабочей области.
 
 ~hint Нажмите здесь, чтобы узнать, как это сделать 🕵🏽
@@ -95,12 +95,12 @@ scene.setBackgroundImage(storySprites.halloween)
 
 ---
 
-- :ticket: Из категории ``||carnival:Carnival||`` перетащите
+- :ticket: Из категории ``||carnival:Карнавал||`` перетащите
 ```block
 carnival.addLabelTo("You Are Awesome", carnival.Areas.Top)
 ```
 в **конец** <br/>
-``||loops(noclick):on start||``<br/>
+``||loops(noclick):при запуске||``<br/>
 контейнер, который уже находится в рабочей области.
 
 
@@ -170,12 +170,12 @@ carnival.addLabelTo("You Are Awesome", carnival.Areas.Top, 1)
 
 ---
 
-- :tree: Откройте категорию ``||scene:Scene||`` и перетащите
+- :tree: Откройте категорию ``||scene:Сцена||`` и перетащите
 ```block
 effects.confetti.startScreenEffect()
 ```
 в **конец** <br/>
-``||loops(noclick):on start||``<br/>
+``||loops(noclick):при запуске||``<br/>
 контейнер, который уже находится в рабочей области.
 
 

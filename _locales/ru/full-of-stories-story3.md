@@ -35,12 +35,12 @@
 
 ---
 
-- :tree: Из ``||scene:Scene||``, привязка
+- :tree: Из ``||scene:Сцена||``, привязка
 ```block
 scene.setBackgroundImage(img`.`)
 ```
 в **пустой**<br/>
-``||loops(noclick):on start||`` <br/>
+``||loops(noclick):при запуске||`` <br/>
 контейнер уже в рабочей области.
 
 
@@ -84,12 +84,12 @@ hint~
 
 ---
 
-- :paper plane: Из ``||sprites: Sprites||`` перетащите
+- :paper plane: Из ``||sprites:Спрайты||`` перетащите
 ```block
 let mySprite = sprites.create(img`.`, SpriteKind.Player)
 ```
 его в **конец** <br/>
-``||loops(noclick):on start||`` <br/>
+``||loops(noclick):при запуске||`` <br/>
 контейнер.
 
 
@@ -123,7 +123,7 @@ let mySprite = sprites.create(assets.image`myImage1`, SpriteKind.Player)
 ---
 
 
-- :game: Из ``||controller:Controller||`` перетащите
+- :game: Из ``||controller:Контроллер||`` перетащите
 ```block
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () { })
 ```
@@ -146,18 +146,18 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () { })
 ---
 
 
-- :circle: Из ``||game:Game||`` перетащите
+- :circle: Из ``||game:Игра||`` перетащите
 ```block
 game.showLongText("", DialogLayout.Bottom)
 ```
 в **пустой** <br/>
-``||controller(noclick):on [A] button [pressed]||`` <br/>
+``||controller(noclick):когда кнопка [A] [нажата]||`` <br/>
 контейнер, который вы только что добавили в рабочую область.
 
 
 - :mouse pointer: Добавьте первую строку своей шутки в пустую текстовую область.
 
-💡 _Вы также можете изменить место отображения вашего текста, нажав_ ``||game: bottom||`` _и переключив его в другую область._
+💡 _Вы также можете изменить место отображения вашего текста, нажав_ ``||game:внизу||`` _и переключив его в другую область._
 
 
 
@@ -191,10 +191,10 @@ game.showLongText("Knock, knock...", DialogLayout.Bottom)
 ## {Шаг 9}
 
 Добавьте все необходимые блоки в <br/>.
-``||controller(noclick):on [A] button [pressed]||``</br>
+``||controller(noclick):когда кнопка [A] [нажата]||``</br>
 контейнер уже в рабочей области.
 
-Вы можете использовать блоки <br/>``||game:show long text " "||`` <br/> или заменить его некоторыми другими опциями.
+Вы можете использовать блоки <br/>``||game:показать длинный текст " "||`` <br/> или заменить его некоторыми другими опциями.
 
 ~hint Какие у меня параметры текста? 💡
 
@@ -204,7 +204,7 @@ game.showLongText("Knock, knock...", DialogLayout.Bottom)
 
 ---
 
-``||sprites:Sprites||``
+``||sprites:Спрайты||``
 
 ```block
     let mySprite: Sprite = null
@@ -215,7 +215,7 @@ game.showLongText("Knock, knock...", DialogLayout.Bottom)
 
 ---
 
-``||carnival:Carnival||``
+``||carnival:Карнавал||``
 
 ```block
 carnival.addLabelTo(" ", carnival.Areas.Top)
@@ -225,7 +225,7 @@ carnival.addLabelTo(" ", carnival.Areas.Top)
 ---
 
 
-``||game:Game||``
+``||game:Игра||``
 
 ```block
 game.splash("")
@@ -290,8 +290,8 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 
 ---
 
-- :mouse pointer: Из ``||music:Music||`` возьмите любой из <br/>
-``||music: play [ ]||`` блокирует <br/>
+- :mouse pointer: Из ``||music:Музыка||`` возьмите любой из <br/>
+``||music:воспроизвести [ ]||`` блокирует <br/>
 и добавьте их в свой проект.
 
 
@@ -317,12 +317,12 @@ game.showLongText("Because, pepper makes them sneeze!", DialogLayout.Bottom)
 
 ---
 
-- :mouse pointer: Из ``||scene:Scene||``, возьмите
+- :mouse pointer: Из ``||scene:Сцена||``, возьмите
 ```block
 effects.confetti.startScreenEffect()
 ```
 и прикрепите его к **концу** <br/>
-Контейнер ``||controller:on [A] button [pressed]||``<br/>.
+Контейнер ``||controller:когда кнопка [A] [нажата]||``<br/>.
 
 
 - :mouse pointer: Замените **конфетти** на то, что придаст вашей шутке наибольший эффект!
