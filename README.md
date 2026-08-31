@@ -5,12 +5,18 @@ the **Chase the Pizza** tutorial.
 
 ## Open in MakeCode Arcade
 
-After the repository is published, use these links:
+Open either link in a browser:
 
 * Full of Stories: `https://arcade.makecode.com/--skillmap?lang=ru#github:NikolajSankovDev/makecode-arcade-ru-tutorials/full-of-stories-skillmap`
 * Chase the Pizza: `https://arcade.makecode.com/?lang=ru#tutorial:https://github.com/NikolajSankovDev/makecode-arcade-ru-tutorials/chase-the-pizza`
 
 The Skillmap links to localized tutorial variants under `_locales/ru/`.
+
+## What students do
+
+Students only open the relevant link. There is nothing to install, clone, or
+configure. The `lang=ru` part of each URL tells MakeCode to select the Russian
+tutorial files; the MakeCode editor then opens as usual.
 
 ## Source and license
 
