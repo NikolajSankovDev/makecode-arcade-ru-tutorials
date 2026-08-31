@@ -1,0 +1,28 @@
+{
+  "name": "makecode-arcade-ru-tutorials",
+  "version": "0.0.1",
+  "description": "Russian-language MakeCode Arcade tutorials and Skillmaps.",
+  "license": "MIT",
+  "dependencies": {
+    "device": "*"
+  },
+  "files": [
+    "README.md",
+    "main.ts",
+    "full-of-stories-skillmap.md",
+    "full-of-stories-story1.md",
+    "full-of-stories-story2.md",
+    "full-of-stories-story3.md",
+    "full-of-stories-story4.md",
+    "chase-the-pizza.md",
+    "_locales/ru/full-of-stories-story1.md",
+    "_locales/ru/full-of-stories-story2.md",
+    "_locales/ru/full-of-stories-story3.md",
+    "_locales/ru/full-of-stories-story4.md",
+    "_locales/ru/chase-the-pizza.md"
+  ],
+  "supportedTargets": [
+    "arcade"
+  ],
+  "preferredEditor": "tsprj"
+}
