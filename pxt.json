@@ -1,6 +1,6 @@
 {
   "name": "makecode-arcade-ru-tutorials",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Russian-language MakeCode Arcade tutorials and Skillmaps for Neuronka.",
   "license": "MIT",
   "dependencies": {

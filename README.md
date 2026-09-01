@@ -12,8 +12,8 @@ the learner in the lesson flow.
 
 | Material | What it contains | Pinned learner link |
 |---|---|---|
-| Full of Stories | Four short creative activities in one Skillmap | [Open Skillmap](https://arcade.makecode.com/--skillmap?lang=ru&lockedEditor=1#github:NikolajSankovDev/makecode-arcade-ru-tutorials/skillmaps/full-of-stories#v0.1.0) |
-| Chase the Pizza | Standalone guided game tutorial | [Open tutorial](https://arcade.makecode.com/?lang=ru&lockedEditor=1#tutorial:https://github.com/NikolajSankovDev/makecode-arcade-ru-tutorials/tutorials/chase-the-pizza#v0.1.0) |
+| Full of Stories | Four short creative activities in one Skillmap | [Open Skillmap](https://arcade.makecode.com/--skillmap?lang=ru&lockedEditor=1#github:NikolajSankovDev/makecode-arcade-ru-tutorials/skillmaps/full-of-stories#v0.1.1) |
+| Chase the Pizza | Standalone guided game tutorial | [Open tutorial](https://arcade.makecode.com/?lang=ru&lockedEditor=1#tutorial:https://github.com/NikolajSankovDev/makecode-arcade-ru-tutorials/tutorials/chase-the-pizza#v0.1.1) |
 
 ## Repository layout
 

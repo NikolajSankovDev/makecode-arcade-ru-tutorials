@@ -32,7 +32,8 @@ file changes the learner route.
 ## Release discipline
 
 Do not change an existing tag. Test a reviewed change with a new tag and give
-students a pinned URL containing that tag. Old pinned links are historical
-release records and must continue to resolve. A direct GitHub release does not
-by itself refresh MakeCode's cloud cache; use the MakeCode GitHub integration
-when a cache refresh is required.
+students a pinned URL containing that tag. A released Skillmap must use the
+same tag in every activity `url`, otherwise its map and lessons can drift apart.
+Old pinned links are historical release records and must continue to resolve. A
+direct GitHub release does not by itself refresh MakeCode's cloud cache; use the
+MakeCode GitHub integration when a cache refresh is required.
