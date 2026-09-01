@@ -20,7 +20,7 @@
 * name: Поздравительная открытка
 * type: tutorial
 * description: Сделайте красивую поздравительную открытку за несколько минут!
-* url: https://github.com/NikolajSankovDev/makecode-arcade-ru-tutorials/full-of-stories-story1
+* url: https://github.com/NikolajSankovDev/makecode-arcade-ru-tutorials/skillmaps/full-of-stories/greeting-card
 * imageUrl: /static/skillmap/story/story1.gif
 * tags: легко, история, творчество, открытка
 * next: story2
@@ -30,7 +30,7 @@
 * name: Открытка с музыкой
 * type: tutorial
 * description: Добавьте музыку к открытке — получится подарок, который радует снова и снова!
-* url: https://github.com/NikolajSankovDev/makecode-arcade-ru-tutorials/full-of-stories-story2
+* url: https://github.com/NikolajSankovDev/makecode-arcade-ru-tutorials/skillmaps/full-of-stories/bigger-greeting
 * imageUrl: /static/skillmap/story/story2.gif
 * tags: легко, открытка, музыка, искусство
 * next: story3
@@ -41,7 +41,7 @@
 * allowcodecarryover: false
 * type: tutorial
 * description: Создайте первую историю в Arcade с помощью шутки из двух строк!
-* url: https://github.com/NikolajSankovDev/makecode-arcade-ru-tutorials/full-of-stories-story3
+* url: https://github.com/NikolajSankovDev/makecode-arcade-ru-tutorials/skillmaps/full-of-stories/joking-around
 * imageUrl: /static/skillmap/story/story3.gif
 * tags: легко, история, шутка, поделиться
 * next: story4
@@ -52,7 +52,7 @@
 * allowcodecarryover: false
 * type: tutorial
 * description: Запрограммируйте собственную короткую историю в MakeCode Arcade!
-* url: https://github.com/NikolajSankovDev/makecode-arcade-ru-tutorials/full-of-stories-story4
+* url: https://github.com/NikolajSankovDev/makecode-arcade-ru-tutorials/skillmaps/full-of-stories/shortest-story
 * imageUrl: /static/skillmap/story/story4.png
 * tags: легко, история, поделиться
 * next: beginner-cert-1

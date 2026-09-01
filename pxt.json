@@ -1,7 +1,7 @@
 {
   "name": "makecode-arcade-ru-tutorials",
-  "version": "0.0.3",
-  "description": "Russian-language MakeCode Arcade tutorials and Skillmaps.",
+  "version": "0.1.0",
+  "description": "Russian-language MakeCode Arcade tutorials and Skillmaps for Neuronka.",
   "license": "MIT",
   "dependencies": {
     "device": "*"
@@ -9,17 +9,17 @@
   "files": [
     "README.md",
     "main.ts",
-    "full-of-stories-skillmap.md",
-    "full-of-stories-story1.md",
-    "full-of-stories-story2.md",
-    "full-of-stories-story3.md",
-    "full-of-stories-story4.md",
-    "chase-the-pizza.md",
-    "_locales/ru/full-of-stories-story1.md",
-    "_locales/ru/full-of-stories-story2.md",
-    "_locales/ru/full-of-stories-story3.md",
-    "_locales/ru/full-of-stories-story4.md",
-    "_locales/ru/chase-the-pizza.md"
+    "tutorials/chase-the-pizza.md",
+    "skillmaps/full-of-stories.md",
+    "skillmaps/full-of-stories/greeting-card.md",
+    "skillmaps/full-of-stories/bigger-greeting.md",
+    "skillmaps/full-of-stories/joking-around.md",
+    "skillmaps/full-of-stories/shortest-story.md",
+    "_locales/ru/tutorials/chase-the-pizza.md",
+    "_locales/ru/skillmaps/full-of-stories/greeting-card.md",
+    "_locales/ru/skillmaps/full-of-stories/bigger-greeting.md",
+    "_locales/ru/skillmaps/full-of-stories/joking-around.md",
+    "_locales/ru/skillmaps/full-of-stories/shortest-story.md"
   ],
   "supportedTargets": [
     "arcade"

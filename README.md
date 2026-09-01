@@ -1,29 +1,40 @@
 # MakeCode Arcade tutorials in Russian
 
-Russian localizations of the MakeCode Arcade **Full of Stories** Skillmap and
-the **Chase the Pizza** tutorial.
+Russian learner-facing MakeCode Arcade material for Neuronka. This repository
+is the separate publishing project used by the Arcade course; it is not the
+course-planning repository.
 
-## Open in MakeCode Arcade
+## Student links
 
-Open either link in a browser:
+Students only open the assigned link. There is nothing to install, clone, or
+configure. `lang=ru` selects Russian tutorial text, and `lockedEditor=1` keeps
+the learner in the lesson flow.
 
-* Full of Stories: `https://arcade.makecode.com/--skillmap?lang=ru#github:NikolajSankovDev/makecode-arcade-ru-tutorials/full-of-stories-skillmap`
-* Chase the Pizza: `https://arcade.makecode.com/?lang=ru#tutorial:https://github.com/NikolajSankovDev/makecode-arcade-ru-tutorials/chase-the-pizza`
+| Material | What it contains | Pinned learner link |
+|---|---|---|
+| Full of Stories | Four short creative activities in one Skillmap | [Open Skillmap](https://arcade.makecode.com/--skillmap?lang=ru&lockedEditor=1#github:NikolajSankovDev/makecode-arcade-ru-tutorials/skillmaps/full-of-stories#v0.1.0) |
+| Chase the Pizza | Standalone guided game tutorial | [Open tutorial](https://arcade.makecode.com/?lang=ru&lockedEditor=1#tutorial:https://github.com/NikolajSankovDev/makecode-arcade-ru-tutorials/tutorials/chase-the-pizza#v0.1.0) |
 
-The Skillmap links to localized tutorial variants under `_locales/ru/`.
+## Repository layout
 
-## What students do
+```text
+tutorials/                         standalone tutorials
+skillmaps/<skillmap>.md            a Skillmap's Russian map
+skillmaps/<skillmap>/              that Skillmap's canonical tutorial sources
+_locales/ru/<same-relative-path>   matching Russian tutorial views
+```
 
-Students only open the relevant link. There is nothing to install, clone, or
-configure. The `lang=ru` part of each URL tells MakeCode to select the Russian
-tutorial files; the MakeCode editor then opens as usual.
+For example, `skillmaps/full-of-stories/greeting-card.md` is the canonical
+source and `_locales/ru/skillmaps/full-of-stories/greeting-card.md` is what a
+student sees with `lang=ru`. The five Full of Stories files are intentional:
+one map and four separate activities, not duplicate versions.
+
+See [AGENTS.md](AGENTS.md) before changing course content or links.
 
 ## Source and license
 
-The English source tutorials are from Microsoft MakeCode Arcade's
-[`pxt-arcade`](https://github.com/microsoft/pxt-arcade) repository and are
-licensed under MIT. This repository retains the upstream MIT license and
-identifies the modified Russian translations.
-
-The MakeCode Arcade brand and related trademarks remain the property of their
-respective owners.
+The canonical English tutorials come from Microsoft MakeCode Arcade's
+[`pxt-arcade`](https://github.com/microsoft/pxt-arcade) repository under the
+MIT licence. This repository retains the upstream MIT licence and contains
+modified Russian localizations. MakeCode Arcade and related marks remain the
+property of their respective owners.
