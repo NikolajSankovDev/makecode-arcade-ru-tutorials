@@ -22,7 +22,7 @@
 scene.setBackgroundImage(img`.`)
 ```
 и перетащите его в пустой <br/>.
-``||loops(noclick):on start||``<br/>
+``||loops(noclick):при запуске||``<br/>
 контейнер в рабочей области.
 
 ~hint Нажмите здесь, чтобы узнать, как это сделать 🕵🏽
@@ -100,7 +100,7 @@ scene.setBackgroundImage(storySprites.halloween)
 carnival.addLabelTo("You Are Awesome", carnival.Areas.Top)
 ```
 в **конец** <br/>
-``||loops(noclick):on start||``<br/>
+``||loops(noclick):при запуске||``<br/>
 контейнер, который уже находится в рабочей области.
 
 
@@ -175,7 +175,7 @@ carnival.addLabelTo("You Are Awesome", carnival.Areas.Top, 1)
 effects.confetti.startScreenEffect()
 ```
 в **конец** <br/>
-``||loops(noclick):on start||``<br/>
+``||loops(noclick):при запуске||``<br/>
 контейнер, который уже находится в рабочей области.
 
 

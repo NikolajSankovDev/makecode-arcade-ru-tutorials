@@ -50,7 +50,7 @@
 scene.setBackgroundImage(img`.`)
 ```
 в **пустой**<br/>
-``||loops(noclick):on start||`` <br/>
+``||loops(noclick):при запуске||`` <br/>
 контейнер уже в рабочей области.
 
 
@@ -93,7 +93,7 @@ scene.setBackgroundImage(img`
 pause(1000)
 ```
 его в **конец** <br/>
-``||loops(noclick):on start||``<br/>
+``||loops(noclick):при запуске||``<br/>
 контейнер, который уже находится в рабочей области.
 
 
@@ -124,7 +124,7 @@ pause(1000)
 game.showLongText("Once upon a time...", DialogLayout.Bottom)
 ```
 в **конец** <br/>
-``||loops(noclick):on start||``<br/>
+``||loops(noclick):при запуске||``<br/>
 контейнер, который уже находится в рабочей области.
 
 
@@ -281,7 +281,7 @@ let mySprite = sprites.create(img`
     `, SpriteKind.Player)
 ```
 и привяжите его к <br/>.
-``||loops(noclick):on start||``<br/>
+``||loops(noclick):при запуске||``<br/>
 контейнер там, где это лучше всего подходит для вашей истории.
 
 
@@ -349,7 +349,7 @@ mySprite.setPosition(80, 90)
 effects.confetti.startScreenEffect()
 ```
 и прикрепите его к **концу** <br/>
-``||loops(noclick):on start||``<br/>
+``||loops(noclick):при запуске||``<br/>
 контейнер, который уже находится в рабочей области.
 
 
@@ -571,4 +571,3 @@ mySprite.setVelocity(-20, 0)
 mySprite.x = 0
 mySprite.setFlag(SpriteFlag.StayInScreen, false)
 ```
-

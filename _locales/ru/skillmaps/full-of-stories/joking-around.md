@@ -40,7 +40,7 @@
 scene.setBackgroundImage(img`.`)
 ```
 в **пустой**<br/>
-``||loops(noclick):on start||`` <br/>
+``||loops(noclick):при запуске||`` <br/>
 контейнер уже в рабочей области.
 
 
@@ -89,7 +89,7 @@ hint~
 let mySprite = sprites.create(img`.`, SpriteKind.Player)
 ```
 его в **конец** <br/>
-``||loops(noclick):on start||`` <br/>
+``||loops(noclick):при запуске||`` <br/>
 контейнер.
 
 

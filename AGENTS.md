@@ -23,6 +23,9 @@ file changes the learner route.
 3. Use the exact published Russian Arcade label for the visible part of an
    inline block reference. Do not guess a translation that differs from the
    learner's editor.
+   The startup container is the required project exception:
+   ``||loops(noclick):on start||`` becomes
+   ``||loops(noclick):при запуске||`` in every Russian learner file.
 4. Change the source tutorial and its `_locales/ru/` partner deliberately;
    then run the structural validator from the curriculum harness.
 5. If a map activity moves or is renamed, update its `url` in the Skillmap,
