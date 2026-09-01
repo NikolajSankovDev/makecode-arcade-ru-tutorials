@@ -25,8 +25,8 @@
 - :tree: Откройте <br/>
 ``||scene:Сцена||``<br/>
 ящик панели инструментов и перетащите <br/>
-``||scene:задать цвет фона [ ]||`` <br/>
-в **пустой** контейнер ``||loops(noclick):при запуске||``, который уже находится в вашей рабочей области.
+``||scene:установить цвет фона в [ ]||`` <br/>
+в **пустой** контейнер ``||loops(noclick):on start||``, который уже находится в вашей рабочей области.
 
 ~hint Что это значит? 🤷🏽
 
@@ -35,7 +35,7 @@
 При предоставлении инструкций мы выделяем текст, чтобы вы могли лучше понять, что вы ищете.
 
 Например, когда мы предлагаем <br/>
-``||scene:задать цвет фона [ ]||``<br/>
+``||scene:установить цвет фона в [ ]||``<br/>
 блок, мы указываем вам на <br/>
 
 ```block
@@ -67,8 +67,8 @@ scene.setBackgroundColor(13)
 ---
 
 - :paper plane: Откройте ящик ``||sprites:Спрайты||`` и перетащите <br/>.
-``||variables(sprites):задать [mySprite] как спрайт [ ] вида [Player]||`` <br/>
-в **конец** блока ``||loops(noclick):при запуске||``, который уже находится в вашей рабочей области.
+``||variables(sprites):установить [mySprite] значение спрайт [ ] типа [Player]||`` <br/>
+в **конец** блока ``||loops(noclick):on start||``, который уже находится в вашей рабочей области.
 
 ---
 
@@ -105,7 +105,7 @@ mySprite = sprites.create(img`.`, SpriteKind.Player)
 ## {Шаг 4}
 
 - :mouse pointer: Нарисуйте свой спрайт, щелкнув пустой серый квадрат в <br/>.
-``||variables(sprites):задать [mySprite] как спрайт [ ] вида [Player]||`` <br/>
+``||variables(sprites):установить [mySprite] значение спрайт [ ] типа [Player]||`` <br/>
 блок, чтобы открыть **Редактор спрайтов**.
 
 
@@ -152,9 +152,9 @@ mySprite = sprites.create(img`
 ---
 
 - :game: Откройте ``||controller:Контроллер||`` и перетащите<br/>
-``||controller:перемещать [mySprite] кнопками||``<br/>
+``||controller:двигать [mySprite] кнопками||``<br/>
 в **конец** <br/>
-Блок ``||loops(noclick):при запуске||`` уже находится в вашей рабочей области.
+Блок ``||loops(noclick):on start||`` уже находится в вашей рабочей области.
 
 Теперь вы можете перемещать свой спрайт по экрану с помощью кнопок со стрелками на геймпаде или клавиатуре.
 
@@ -218,13 +218,13 @@ controller.moveSprite(mySprite)
 ---
 
 - :paper plane: Откройте ``||sprites:Спрайты||`` и перетащите<br/>
-``||variables(sprites):задать [pizza] как спрайт [ ] вида [Player]||``<br/>
+``||variables(sprites):установить [pizza] значение спрайт [ ] типа [Player]||``<br/>
 в **конец** <br/>
-Блок ``||loops(noclick):при запуске||`` уже находится в вашей рабочей области.
+Блок ``||loops(noclick):on start||`` уже находится в вашей рабочей области.
 
 
 - :mouse pointer: Нажмите **Player** в <br/>
-``||variables(noclick):задать [pizza] как спрайт [ ] вида [Player]||``<br/>
+``||variables(noclick):установить [pizza] значение спрайт [ ] типа [Player]||``<br/>
 и вместо этого выберите **Еда**.
 
 ---
@@ -291,7 +291,7 @@ pizza = sprites.create(img`.`, SpriteKind.Food)
 
 
 - :mouse pointer: Выберите пиццу, щелкнув пустой серый квадрат внутри <br/>
-``||variables(noclick):задать [pizza] как спрайт [ ] вида [Food]||`` <br/>
+``||variables(noclick):установить [pizza] значение спрайт [ ] типа [Food]||`` <br/>
 чтобы открыть **Редактор спрайтов**.
 
 - :mouse pointer: Перейдите на вкладку **Галерея** вверху.
@@ -384,7 +384,7 @@ b 5 5 5 5 d d 4 4 4 4 . . . . .
 ---
 
 - :paper plane: Откройте ``||sprites:Спрайты||`` и перетащите <br/>
-``||sprites:когда [sprite] вида [Player] пересекается с [otherSprite] вида [Food]||``<br/>
+``||sprites:когда [sprite] типа [Player] пересекает [otherSprite] типа [Food]||``<br/>
 контейнер в **пустую область** рабочей области.
 
 
@@ -431,9 +431,9 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 ---
 
 - :id card: Откройте ``||info:Информация||`` и перетащите<br/>
-``||info:изменить счёт на [1]||``<br/>
+``||info:изменить счет на [1]||``<br/>
 в **пустой** <br/>
-``||sprites(noclick):когда [sprite] ... пересекается с [otherSprite]||`` <br/>
+``||sprites(noclick):когда [sprite] ... пересекает [otherSprite]||`` <br/>
 контейнер уже в рабочей области.
 
 
@@ -508,9 +508,9 @@ hint~
 ---
 
 - :paper plane: Откройте ``||sprites:Спрайты||`` и перетащите <br/>
-``||sprites:задать позицию [pizza]...||``<br/>
+``||sprites:установить [pizza] в позицию...||``<br/>
 в **конец** <br/>
-``||sprites(noclick):когда [sprite] ... пересекается с [otherSprite]||`` <br/>
+``||sprites(noclick):когда [sprite] ... пересекает [otherSprite]||`` <br/>
 контейнер уже в рабочей области.
 
 
@@ -556,9 +556,9 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
 ---
 
 - :id card: Из ``||info:Информация||`` перетащите <br/>
-``||info:запустить обратный отсчёт [3] (с)||`` <br/>
+``||info:начать обратный отсчет [3] (с)||`` <br/>
 в **конец** <br/>
-``||sprites(noclick):когда [sprite] ... пересекается с [otherSprite]||`` <br/>
+``||sprites(noclick):когда [sprite] ... пересекает [otherSprite]||`` <br/>
 контейнер уже в рабочей области.
 
 

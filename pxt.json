@@ -1,6 +1,6 @@
 {
   "name": "makecode-arcade-ru-tutorials",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Russian-language MakeCode Arcade tutorials and Skillmaps.",
   "license": "MIT",
   "dependencies": {

@@ -40,7 +40,7 @@
 scene.setBackgroundImage(img`.`)
 ```
 в **пустой**<br/>
-``||loops(noclick):при запуске||`` <br/>
+``||loops(noclick):on start||`` <br/>
 контейнер уже в рабочей области.
 
 
@@ -89,7 +89,7 @@ hint~
 let mySprite = sprites.create(img`.`, SpriteKind.Player)
 ```
 его в **конец** <br/>
-``||loops(noclick):при запуске||`` <br/>
+``||loops(noclick):on start||`` <br/>
 контейнер.
 
 
@@ -157,7 +157,7 @@ game.showLongText("", DialogLayout.Bottom)
 
 - :mouse pointer: Добавьте первую строку своей шутки в пустую текстовую область.
 
-💡 _Вы также можете изменить место отображения вашего текста, нажав_ ``||game:внизу||`` _и переключив его в другую область._
+💡 _Вы также можете изменить место отображения вашего текста, нажав_ ``||game:снизу||`` _и переключив его в другую область._
 
 
 
@@ -215,7 +215,7 @@ game.showLongText("Knock, knock...", DialogLayout.Bottom)
 
 ---
 
-``||carnival:Карнавал||``
+``||carnival:Carnival||``
 
 ```block
 carnival.addLabelTo(" ", carnival.Areas.Top)
@@ -291,7 +291,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 ---
 
 - :mouse pointer: Из ``||music:Музыка||`` возьмите любой из <br/>
-``||music:воспроизвести [ ]||`` блокирует <br/>
+``||music:play [ ]||`` блокирует <br/>
 и добавьте их в свой проект.
 
 
